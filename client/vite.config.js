@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'client', // Ensure this matches your Netlify publish directory
+    outDir: 'dist', // Ensure this matches your Netlify publish directory
   },
 })
